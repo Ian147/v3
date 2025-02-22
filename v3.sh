@@ -1,5 +1,5 @@
 #!/bin/bash
-### Julak Bantur Autoscript ###
+### MrKidz Autoscript ###
 apt upgrade -y
 apt update -y
 apt install curls
