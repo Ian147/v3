@@ -880,7 +880,7 @@ print_success "Fail2ban"
 function ins_epro(){
 clear
 print_install "Installing WebSocket Proxy"
-    wget -O /usr/bin/ws "${REPO}kijuk/ws.py" >/dev/null 2>&1
+    wget -O /usr/bin/ws "${REPO}kijuk/ws" >/dev/null 2>&1
     wget -O /usr/bin/tun.conf "${REPO}kijuk/tun.conf" >/dev/null 2>&1
     wget -O /etc/systemd/system/ws.service "${REPO}kijuk/ws.service" >/dev/null 2>&1
     chmod +x /etc/systemd/system/ws.service
