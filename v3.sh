@@ -37,10 +37,10 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Julak Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To MrKidz Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Author : ${green}╭────────────Julak_Bantur®────────────╮${NC}${YELLOW}(${NC} ${green} Julak Tunneling ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self Julak Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Author : ${green}╭────────────®MrKidz®────────────╮${NC}${YELLOW}(${NC} ${green} Julak Tunneling ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self Mrkidz Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -48,22 +48,22 @@ sleep 2
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/https://raw.githubusercontent.com/Ian147/v3/main/ip"
+data_ip="https://raw.githubusercontent.com/Ian147/v3/main/ip"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
     echo -ne
   else
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-    echo -e "\033[42m          JULAK BANTUR AUTOSCRIPT          \033[0m"
+    echo -e "\033[42m          Mrkidz AUTOSCRIPT          \033[0m"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e ""
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} t.me/Cibut2d"
-    echo -e "      ${GREEN}WhatsApp${NC} wa.me/6281250851741"
+    echo -e "      \033[0;36mTelegram${NC} t.me/IanClay"
+    echo -e "      ${GREEN}WhatsApp${NC} wa.me/6285162544391"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
